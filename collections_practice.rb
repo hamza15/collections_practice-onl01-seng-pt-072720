@@ -16,3 +16,4 @@ sort_array_asc(values)
 
 values = ["7","8","9"]
 
+sort_array_desc(values)
