@@ -1,10 +1,14 @@
 def sort_array_asc(values)
   arr = []
   arr.push(values.sort)
-  arr.inspect
+  arr
 end
 
-def 
+def sort_array_desc()
+  arr = []
+  arr.push(values.sort)
+  arr
+end
 
 values = ["9","8","7"]
 
