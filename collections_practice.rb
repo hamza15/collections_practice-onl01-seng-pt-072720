@@ -58,7 +58,7 @@ def add_s(values)
     if index == 1 
       arr << word
     else
-      arr << "s"
+      arr << word + "s"
       
 end
 
