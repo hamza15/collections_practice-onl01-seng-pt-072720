@@ -52,6 +52,12 @@ def sum_array(values)
   i
 end
 
+def add_s(values)
+  values.each_with_index.collect do |word, index|
+    if index = 1
+      
+end
+
 values = ["9","8","7"]
 
 sort_array_asc(values)
