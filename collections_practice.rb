@@ -3,3 +3,5 @@ def sort_array_asc(values)
 end
 
 values = ["9","8","7"]
+
+sort_array_asc(values)
