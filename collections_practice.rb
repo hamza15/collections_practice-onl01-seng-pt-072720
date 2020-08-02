@@ -31,7 +31,9 @@ def kesha_maker(values)
   values.each do |value|
     if values.[value] == values[2]
       values[2] = "$"
+    end
   end
+end
 
 values = ["9","8","7"]
 
