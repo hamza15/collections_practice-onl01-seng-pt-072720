@@ -29,10 +29,14 @@ end
 def kesha_maker(values)
   arr = []
   values.each do |value|
-    if values.[value] == values[2]
-      values[2] = "$"
-    end
+    value[2] = "$"
+    arr.push(value)
   end
+  arr
+end
+
+def find_a(values)
+  values.start_with?
 end
 
 values = ["9","8","7"]
