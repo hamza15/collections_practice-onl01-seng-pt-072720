@@ -36,7 +36,20 @@ def kesha_maker(values)
 end
 
 def find_a(values)
-  values.start_with?
+  arr = []
+  values.each do |value|
+    if value.start_with?(a)
+      arr.push(value)
+    end
+  arr
+end
+
+def sum_array(values)
+  i = 0 
+  values.each do |value|
+    i += value
+  end
+  i
 end
 
 values = ["9","8","7"]
