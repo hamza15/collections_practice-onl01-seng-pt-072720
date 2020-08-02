@@ -1,6 +1,5 @@
 def sort_array_asc(values)
-  arr = []
-  arr.push(values.sort)
+  values.sort)
   arr
 end
 
