@@ -36,7 +36,6 @@ def kesha_maker(values)
 end
 
 def find_a(values)
-  arr = []
   values.select do |value|
     value.start_with?("a")
   end
