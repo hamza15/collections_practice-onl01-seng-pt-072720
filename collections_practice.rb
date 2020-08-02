@@ -59,7 +59,7 @@ def add_s(values)
       arr << word
     else
       arr << word + "s"
-      
+    end
 end
 
 values = ["9","8","7"]
