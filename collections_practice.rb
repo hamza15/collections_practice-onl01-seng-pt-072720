@@ -4,7 +4,7 @@ def sort_array_asc(values)
   arr
 end
 
-def sort_array_desc()
+def sort_array_desc(values)
   arr = []
   arr.push(values.sort.reverse)
   puts arr.inspect
