@@ -41,6 +41,7 @@ def find_a(values)
     if value.start_with?(a)
       arr.push(value)
     end
+  end
   arr
 end
 
