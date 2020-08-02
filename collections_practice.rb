@@ -10,7 +10,9 @@ def sort_array_desc(values)
   arr
 end
 
-
+def sort_array_char_count(values)
+  values.sort
+end
 
 values = ["9","8","7"]
 
