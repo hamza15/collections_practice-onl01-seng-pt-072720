@@ -60,5 +60,6 @@ def add_s(values)
     else
       arr << word + "s"
     end
-    arr
+  end
+  arr
 end
