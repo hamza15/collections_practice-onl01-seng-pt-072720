@@ -11,7 +11,7 @@ def sort_array_desc(values)
 end
 
 def sort_array_char_count(values)
-  values.sort
+  puts values.sort
 end
 
 values = ["9","8","7"]
