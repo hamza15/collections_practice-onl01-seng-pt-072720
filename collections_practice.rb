@@ -19,7 +19,7 @@ def swap_elements(values)
   b = values[2]
   values[2] = a
   values[1] = b
-  
+  values
 end
 
 values = ["9","8","7"]
