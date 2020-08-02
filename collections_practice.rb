@@ -38,7 +38,7 @@ end
 def find_a(values)
   arr = []
   values.each do |value|
-    if value.starts_with?(a)
+    if value.starts_with?(value)
       arr.push(value)
     end
   end
