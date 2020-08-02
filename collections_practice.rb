@@ -14,7 +14,13 @@ def sort_array_char_count(values)
   values.sort
 end
 
-
+def swap_elements(values)
+  a = values[1]
+  b = values[2]
+  values[2] = a
+  values[1] = b
+  
+end
 
 values = ["9","8","7"]
 
