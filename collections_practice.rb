@@ -38,11 +38,8 @@ end
 def find_a(values)
   arr = []
   values.select do |value|
-    if value.start_with?(value)
-      arr.push(value)
-    end
+  value.start_with?(value)
   end
-  arr
 end
 
 def sum_array(values)
