@@ -56,7 +56,9 @@ def add_s(values)
   arr = []
   values.each_with_index do |word, index|
     if index == 1 
-      
+      arr << word
+    else
+      arr << "s"
       
 end
 
