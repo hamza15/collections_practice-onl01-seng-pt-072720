@@ -22,6 +22,17 @@ def swap_elements(values)
   values
 end
 
+def reverse_array(values)
+  values.reverse
+end
+
+def kesha_maker(values)
+  arr = []
+  values.each do |value|
+    if values.[value] == values[2]
+      values[2] = "$"
+  end
+
 values = ["9","8","7"]
 
 sort_array_asc(values)
