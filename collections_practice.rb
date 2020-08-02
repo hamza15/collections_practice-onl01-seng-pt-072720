@@ -38,7 +38,7 @@ end
 def find_a(values)
   arr = []
   values.select do |value|
-  value.start_with?(value)
+    value.start_with?(value)
   end
 end
 
